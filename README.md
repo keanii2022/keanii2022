@@ -1,14 +1,16 @@
 ### Hi, I'm Keani
 
-I build with AI agents: I give each one a narrow job, decide exactly where a human signs off, and write tests that prove the guardrails hold.
+I build AI agents that are safe to trust with real actions. Each agent gets a narrow job, plain code sets the hard limits, a person signs off on the risky calls, and tests prove the limits hold.
 
-I build mostly with Claude Code. Every project here has a `CLAUDE.md` that spells out the rules it works under. I'm a software engineering bootcamp grad (2022).
+I build mostly with Claude Code. Every project here has a `CLAUDE.md` with the rules it works under. Software engineering bootcamp grad (2022).
 
-Looking for AI agent engineering and prompt engineering roles.
+Looking for AI engineering roles in agent evals, AI solutions, and automation.
 
 **Pinned projects**
 
-- **[content-pipeline](https://github.com/keanii2022/content-pipeline)**: three AI agents turn a clip into a finished short video, and a person approves at five points, including every publish. Tests check the publish gates. One test fails if an agent's instructions drift from the rules the code enforces.
-- **[yeti-survival](https://github.com/keanii2022/yeti-survival)**: a 3D browser game built one planned step at a time, with a family playtest between each step. It has 321 tests and is [playable here](https://keanii2022.github.io/yeti-survival/).
-- **[wpm-fidget](https://github.com/keanii2022/wpm-fidget)**: a typing widget whose border pulses as you type. Browser tests control the page's clock, so the timing checks are exact and passed 100 out of 100 runs.
-- **[boxcutter](https://github.com/keanii2022/boxcutter)**: the live site for my business, BoxCutter, which helps small businesses with AI and tech in plain language. It's built in Next.js, with a hand-built scroll engine and live GitHub activity. See it at [boxcuttersf.com](https://boxcuttersf.com).
+- **[approval-desk](https://github.com/keanii2022/approval-desk)**: a Claude refund agent that can never move money on its own. Code checks every suggestion and a person approves anything over $100. It scored 95–98% on 120 test cases, half written by a different AI to break it, with zero bad refunds getting through.
+- **[content-pipeline](https://github.com/keanii2022/content-pipeline)**: three AI agents turn a clip into a finished short video, and a person approves at five points, including every publish. One test fails if an agent's instructions drift from the rules the code enforces.
+- **[build-board](https://github.com/keanii2022/build-board)**: a desktop board that tracks my projects' build plans, with an MCP server so Claude Code reads the same board.
+- **[agent-hub](https://github.com/keanii2022/agent-hub)**: a pixel-art village that shows my AI agents at work. Each project is a house, and anything that needs me lands on my desk. Demo data for now.
+- **[yeti-survival](https://github.com/keanii2022/yeti-survival)**: a 3D browser game built one planned step at a time, with a family playtest after each step. 321 tests, [playable here](https://keanii2022.github.io/yeti-survival/).
+- **[boxcutter](https://github.com/keanii2022/boxcutter)**: the live site for my business, which helps small businesses with AI in plain language. [boxcuttersf.com](https://boxcuttersf.com)
